@@ -14,9 +14,9 @@ use Filament\Tables\TablesServiceProvider;
 use Filament\Widgets\WidgetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
+use NurullahSaglam\FilamentAccuweatherPlugin\FilamentAccuweatherPluginServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use NurullahSaglam\FilamentAccuweatherPlugin\FilamentAccuweatherPluginServiceProvider;
 
 class TestCase extends Orchestra
 {
