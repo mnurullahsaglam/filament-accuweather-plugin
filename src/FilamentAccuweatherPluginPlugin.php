@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace NurullahSaglam\FilamentAccuweatherPlugin;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentAccuweatherPluginPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-accuweather-plugin';
     }
 
     public function register(Panel $panel): void

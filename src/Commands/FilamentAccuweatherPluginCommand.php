@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace NurullahSaglam\FilamentAccuweatherPlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentAccuweatherPluginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-accuweather-plugin';
 
     public $description = 'My command';
 
